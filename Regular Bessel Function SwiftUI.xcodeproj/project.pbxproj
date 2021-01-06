@@ -15,6 +15,18 @@
 		D252F26E25A5450400388E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F24325A5450200388E26 /* ContentView.swift */; };
 		D252F26F25A5450400388E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D252F24425A5450400388E26 /* Assets.xcassets */; };
 		D252F27025A5450400388E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D252F24425A5450400388E26 /* Assets.xcassets */; };
+		D252F28425A5457C00388E26 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28325A5457C00388E26 /* Operators.swift */; };
+		D252F28525A5457C00388E26 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28325A5457C00388E26 /* Operators.swift */; };
+		D252F28625A5457C00388E26 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28325A5457C00388E26 /* Operators.swift */; };
+		D252F28725A5457C00388E26 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28325A5457C00388E26 /* Operators.swift */; };
+		D252F28D25A5463200388E26 /* Bessel Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28C25A5463200388E26 /* Bessel Functions.swift */; };
+		D252F28E25A5463200388E26 /* Bessel Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28C25A5463200388E26 /* Bessel Functions.swift */; };
+		D252F28F25A5463200388E26 /* Bessel Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28C25A5463200388E26 /* Bessel Functions.swift */; };
+		D252F29025A5463200388E26 /* Bessel Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F28C25A5463200388E26 /* Bessel Functions.swift */; };
+		D252F2A125A5546C00388E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F24325A5450200388E26 /* ContentView.swift */; };
+		D252F2A625A5546C00388E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F24325A5450200388E26 /* ContentView.swift */; };
+		D252F2AB25A5547000388E26 /* Regular_Bessel_Function_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F24225A5450200388E26 /* Regular_Bessel_Function_SwiftUIApp.swift */; };
+		D252F2AC25A5547100388E26 /* Regular_Bessel_Function_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D252F24225A5450200388E26 /* Regular_Bessel_Function_SwiftUIApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,8 @@
 		D252F26425A5450400388E26 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D252F26825A5450400388E26 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D252F26A25A5450400388E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D252F28325A5457C00388E26 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		D252F28C25A5463200388E26 /* Bessel Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bessel Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,8 @@
 			children = (
 				D252F24225A5450200388E26 /* Regular_Bessel_Function_SwiftUIApp.swift */,
 				D252F24325A5450200388E26 /* ContentView.swift */,
+				D252F28325A5457C00388E26 /* Operators.swift */,
+				D252F28C25A5463200388E26 /* Bessel Functions.swift */,
 				D252F24425A5450400388E26 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,8 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D252F28D25A5463200388E26 /* Bessel Functions.swift in Sources */,
 				D252F26D25A5450400388E26 /* ContentView.swift in Sources */,
 				D252F26B25A5450400388E26 /* Regular_Bessel_Function_SwiftUIApp.swift in Sources */,
+				D252F28425A5457C00388E26 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D252F28E25A5463200388E26 /* Bessel Functions.swift in Sources */,
 				D252F26E25A5450400388E26 /* ContentView.swift in Sources */,
 				D252F26C25A5450400388E26 /* Regular_Bessel_Function_SwiftUIApp.swift in Sources */,
+				D252F28525A5457C00388E26 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D252F2AB25A5547000388E26 /* Regular_Bessel_Function_SwiftUIApp.swift in Sources */,
 				D252F25E25A5450400388E26 /* Tests_iOS.swift in Sources */,
+				D252F28625A5457C00388E26 /* Operators.swift in Sources */,
+				D252F2A125A5546C00388E26 /* ContentView.swift in Sources */,
+				D252F28F25A5463200388E26 /* Bessel Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D252F2AC25A5547100388E26 /* Regular_Bessel_Function_SwiftUIApp.swift in Sources */,
 				D252F26925A5450400388E26 /* Tests_macOS.swift in Sources */,
+				D252F28725A5457C00388E26 /* Operators.swift in Sources */,
+				D252F2A625A5546C00388E26 /* ContentView.swift in Sources */,
+				D252F29025A5463200388E26 /* Bessel Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
