@@ -55,6 +55,8 @@ struct ContentView: View {
     var x = 0.0
     var maxIndex = 0
     guess = String(format: "J%d(x)\n", order)
+    guess += "Start time \(Date())\n"
+    let startTime : DispatchTime = .now()
     maxIndex = Int(((xmax-xmin)/step))+1
 
     for index in (0...maxIndex)
@@ -64,6 +66,9 @@ struct ContentView: View {
         guess += String(format: "x = %f, Downward, %7.5e, Upward, %7.5e\n", x, calculateDownwardRecursion(xValue: x, order: order, start: start),   calculateUpwardRecursion(xValue: x, order: order))
         
     }
+        guess += "End time \(Date())\n"
+        let duration = startTime.distance(to: .now())
+        guess += "Elapsed time \(duration)\n"
         
 
     }
