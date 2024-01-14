@@ -47,7 +47,7 @@ struct ContentView: View {
     
     func calculateBesselFunc()  {
 
-    let xmax = 16.0                     /* max of x  */
+    let xmax = 26.0                     /* max of x  */
     let xmin = 0.1                     /* min of x >0  */
     let step = 0.1                      /* delta x  */
     let order = totalInput ?? 0                      /* order of Bessel function */
